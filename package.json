@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "next": "^13.3.0",
+    "next-auth": "^4.21.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "name": "beestattoos_",
+  "version": "0.0.0",
+  "description": "Pagina web para beestattoos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavierReivajG/beestattoos_.git"
+  },
+  "keywords": [
+    "next.js",
+    "react",
+    "html",
+    "css",
+    "javascript",
+    "node",
+    "typescript"
+  ],
+  "author": "Alejandro Flores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JavierReivajG/beestattoos_/issues"
+  },
+  "homepage": "https://github.com/JavierReivajG/beestattoos_#readme"
+}
