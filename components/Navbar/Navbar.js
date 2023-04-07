@@ -1,16 +1,23 @@
-import react from "react";
+import React from "react";
+import Link from "next/Link";
+
 
 
 const Navbar = () => {
     return (
-        <div>
-            <nav>
-                <menu>
-                    <a href="/">Home</a>
-                    <a href="/galeria">Galeria</a>
-                </menu>
-            </nav>
-        </div>
+        <nav>
+            <ul>
+            <Link href="/">
+                    <p>Home</p>
+            </Link>
+            <Link href="/">
+                    <p>Gallery</p>
+            </Link>
+            <Link href="/">
+                    <p>Login</p>
+            </Link>
+            </ul>
+        </nav>
     )
 }
 
