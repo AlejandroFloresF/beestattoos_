@@ -6,7 +6,7 @@
     "react-dom": "^18.2.0"
   },
   "name": "beestattoos_",
-  "version": "0.0.0",
+  "version": "0.2.2",
   "description": "Pagina web para beestattoos",
   "main": "index.js",
   "scripts": {
@@ -19,13 +19,14 @@
     "url": "git+https://github.com/JavierReivajG/beestattoos_.git"
   },
   "keywords": [
-    "next.js",
-    "react",
-    "html",
-    "css",
+    "Next.js",
+    "React",
+    "HTML5",
+    "CSS3",
     "javascript",
-    "node",
-    "typescript"
+    "Node.js",
+    "Typescript",
+    "Server-side-rendering"
   ],
   "author": "Alejandro Flores",
   "license": "ISC",
