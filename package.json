@@ -6,7 +6,7 @@
     "react-dom": "^18.2.0"
   },
   "name": "beestattoos_",
-  "version": "0.2.2",
+  "version": "0.4.2",
   "description": "Pagina web para beestattoos",
   "main": "index.js",
   "scripts": {
@@ -33,5 +33,10 @@
   "bugs": {
     "url": "https://github.com/JavierReivajG/beestattoos_/issues"
   },
-  "homepage": "https://github.com/JavierReivajG/beestattoos_#readme"
+  "homepage": "https://github.com/JavierReivajG/beestattoos_#readme",
+  "devDependencies": {
+    "@types/node": "18.15.11",
+    "@types/react": "^18.0.33",
+    "typescript": "^5.0.3"
+  }
 }
