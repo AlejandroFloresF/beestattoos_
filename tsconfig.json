@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "pages/api/avo/index.js", "database/db.js", "database/data.js"  ],
   "exclude": [
     "node_modules"
   ]

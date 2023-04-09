@@ -10,7 +10,7 @@ const Navbar = () => {
             <Link href="/">
                     <p>Home</p>
             </Link>
-            <Link href="/">
+            <Link href="galeria">
                     <p>Gallery</p>
             </Link>
             <Link href="/">
