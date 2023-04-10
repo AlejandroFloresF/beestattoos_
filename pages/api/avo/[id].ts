@@ -8,11 +8,10 @@ const allAvos = async (request: NextApiRequest, response: NextApiResponse) => {
     const id = request.query.id
 
 
-    const allEntries = await db.getAll()
-    const length = allEntries.length
-    response.statusCode = 200 // ok
-    response.setHeader("Content-type" , "application/json")
-    response.end(JSON.stringify({data: id}))
+    const entry = await db.getById(id as string)
+
+
+    response.status(200).json(entry)
 
 }
 
