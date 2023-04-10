@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import Navbar from "../components/Navbar/Navbar"
-//import styles from '../../assets/css/Navbar.css';
+
 
 const HomePage = () => {
     const [productList, setProductList] = useState<TProduct>([])
