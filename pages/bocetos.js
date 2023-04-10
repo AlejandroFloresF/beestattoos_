@@ -2,14 +2,14 @@ import react from "react";
 import Navbar from "../components/Navbar/Navbar"
 
 
-const Citas = () => {
+const Galeria = () => {
     return (
         <div>
             <Navbar/>
-            <h1>Citas para realizarse un tatuaje</h1>
+            <h1>Diseños</h1>
         </div>
     )
 }
 
 
-export default Citas
+export default Galeria
