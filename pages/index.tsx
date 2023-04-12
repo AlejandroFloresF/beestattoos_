@@ -4,7 +4,7 @@ import Footer from "../components/Footer/Footer"
 
 
 const HomePage = () => {
-    const [productList, setProductList] = useState<TProduct>([])
+    const [productList, setProductList] = useState([])
 
     useEffect(() => {
         window
@@ -28,3 +28,4 @@ const HomePage = () => {
 
 
 export default HomePage
+
