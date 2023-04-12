@@ -144,28 +144,28 @@ const Footer = () => {
                     </div>
                     <ul class="footer__links">
                         <li>
-                        <a href="" class="footer__link">Link1</a>
+                        <Link href="" class="footer__link">Link1</Link>
                         </li>
                         <li>
-                        <a href="" class="footer__link">Link2</a>
+                        <Link href="" class="footer__link">Link2</Link>
                         </li>
                         <li>
-                        <a href="" class="footer__link">Link3</a>
+                        <Link href="" class="footer__link">Link3</Link>
                         </li>
                     </ul>
                     <div class="footer__socials">
-                        <a href="" class="footer__social">
+                        <Link href="" class="footer__social">
                         <i class="uil uil-github-alt social__icon"></i>
-                        </a>
-                        <a href="" class="footer__social">
+                        </Link>
+                        <Link href="" class="footer__social">
                         <i class="fa-brands fa-codepen"></i>
-                        </a>
-                        <a href="" class="footer__social">
+                        </Link>
+                        <Link href="" class="footer__social">
                         <i class="uil uil-instagram"></i>
-                        </a>
-                        <a href="" class="footer__social">
+                        </Link>
+                        <Link href="" class="footer__social">
                         <i class="uil uil-linkedin-alt"></i>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
