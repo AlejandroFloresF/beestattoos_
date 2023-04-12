@@ -14,5 +14,5 @@ export default function Page() {
     }
   }, [user, loading])
 
-  return <p>Redirecting...</p>
+  return 
 }
