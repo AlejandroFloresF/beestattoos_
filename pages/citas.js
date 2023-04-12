@@ -1,5 +1,6 @@
 import react from "react";
 import Navbar from "../components/Navbar/Navbar"
+import Footer from "../components/Footer/Footer"
 
 
 const Citas = () => {
@@ -7,6 +8,7 @@ const Citas = () => {
         <div>
             <Navbar/>
             <h1>Citas para realizarse un tatuaje</h1>
+            <Footer/>
         </div>
     )
 }

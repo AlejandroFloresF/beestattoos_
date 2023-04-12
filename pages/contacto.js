@@ -1,5 +1,6 @@
 import react from "react";
 import Navbar from "../components/Navbar/Navbar"
+import Footer from "../components/Footer/Footer"
 
 
 const Galeria = () => {
@@ -7,6 +8,7 @@ const Galeria = () => {
         <div>
             <Navbar/>
             <h1>Contacto</h1>
+            <Footer/>
         </div>
     )
 }
