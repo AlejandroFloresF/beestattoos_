@@ -27,8 +27,8 @@ const Navbar = () => {
                 <li class="dropdown">
                         <Link class="dropdown-toggle" data-toggle="dropdown" href="#">Identificarse<span class="caret"></span></Link>
                         <ul class="dropdown-menu">
-                            <li><Link href="/galeria">Iniciar Sesion</Link></li>
-                            <li><Link href="/bocetos">Registrarse</Link></li>
+                            <li><Link href="/login">Iniciar Sesion</Link></li>
+                            <li><Link href="/sing in">Registrarse</Link></li>
                         </ul>
                     </li>
                 </ul>
