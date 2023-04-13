@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from "react";
 import Navbar from "../components/Navbar/Navbar"
-import Footer from "../components/footer/footer"
+import Footer from "../components/Footer/Footer"
 
 
 const HomePage = () => {
-    const [productList, setProductList] = useState<TProduct>([])
+    const [productList, setProductList] = useState([])
 
     useEffect(() => {
         window
@@ -24,7 +24,9 @@ const HomePage = () => {
             <Footer/>
         </div>
     )
+    
 }
 
 
 export default HomePage
+

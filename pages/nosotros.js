@@ -1,5 +1,6 @@
-import react from "react";
+import React from "react";
 import Navbar from "../components/Navbar/Navbar"
+import Footer from "../components/Footer/Footer"
 
 
 const Nosotros = () => {
@@ -7,6 +8,7 @@ const Nosotros = () => {
         <div>
             <Navbar/>
             <h1>Quienes somos?</h1>
+            <Footer/>
         </div>
     )
 }
