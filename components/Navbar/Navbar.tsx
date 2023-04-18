@@ -1,16 +1,14 @@
-import React from "react";
-import Link from "Next/Link";
-
-
+import React, { useContext } from 'react'
+import Link from 'next/link'
 
 const Navbar = () => {
-    return (
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <Link class="navbar-brand" href="/nosotros">Beestattoos_</Link>
+  return (
+        <nav className="navbar navbar-inverse">
+            <div className="container-fluid">
+                <div className="navbar-header">
+                    <Link className="navbar-brand" href="/nosotros">Beestattoos_</Link>
                 </div>
-                <ul class="nav navbar-nav">
+                <ul className="nav navbar-nav">
                     <li>
                         <Link href="/">Inicio</Link>
                     </li>
@@ -23,10 +21,10 @@ const Navbar = () => {
                     <li><Link href="/contacto">Contacto</Link></li>
                     <li><Link href="/citas">Citas</Link></li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                        <Link class="dropdown-toggle" data-toggle="dropdown" href="#">Identificarse<span class="caret"></span></Link>
-                        <ul class="dropdown-menu">
+                <ul className="nav navbar-nav navbar-right">
+                <li className="dropdown">
+                        <Link className="dropdown-toggle" data-toggle="dropdown" href="#">Identificarse<span className="caret"></span></Link>
+                        <ul className="dropdown-menu">
                             <li><Link href="/login">Iniciar Sesion</Link></li>
                             <li><Link href="/sing in">Registrarse</Link></li>
                         </ul>
@@ -34,9 +32,7 @@ const Navbar = () => {
                 </ul>
             </div>
         </nav>
-
     )
 }
-
 
 export default Navbar
