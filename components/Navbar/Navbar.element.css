@@ -1,0 +1,15 @@
+
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css";
+
+.container-fluid {
+    background-color: #26272b;
+    border-radius: none;
+    
+}
+
+.navbar-brand--icon {
+    background-image: url(../../assets/imagenes/Logo.png);
+    width: 16px;
+    height: 16px;
+    background-color: red;
+}

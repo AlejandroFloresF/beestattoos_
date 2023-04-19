@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import Link from 'next/link'
 
+
 const Footer = () => {
   return (  
     <footer className="site-footer">
