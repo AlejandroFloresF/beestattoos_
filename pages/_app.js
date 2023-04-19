@@ -1,5 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.css'
-import '../assets/css/RootStyle.css'
+import '../assets/GlobalStyles/Root.css'
 
 
 
