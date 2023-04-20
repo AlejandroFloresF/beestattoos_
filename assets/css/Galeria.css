@@ -11,18 +11,78 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 20px;
   list-style: none;
 }
 
 
 .photos-container--card {
-  width: 250px;
-  height: 250px;
+  max-width: 250px;
+  max-height: 250px;
+  min-width: 150px;
+  min-height: 150px;
+  height: 20rem;
+  width: 20rem;
   background-size: contain;
-  box-shadow: 10px  5px 10px black;
   border-radius: 5px;
+  margin: 1.2%;
 }
+
+@media only screen and (max-width: 576px) {
+  .photos-container--card {
+    height: 15rem;
+    width: 15rem;
+  }
+  .photos-container--card:hover {
+    animation-duration: 0.5s;
+    animation-name: focus;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  }
+  
+  @keyframes focus {
+    0% {
+      width: 200px;
+      height: 200px;
+    }
+  
+    100% {
+      width: 250px;
+      height: 250px;
+      margin: 0%;
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .photos-container--card {
+    height: 25rem;
+    width: 25rem;
+  }
+  .photos-container--card:hover {
+    animation-duration: 1s;
+    animation-name: focus;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  }
+  
+  @keyframes focus {
+    0% {
+      width: 250px;
+      height: 250px;
+    }
+
+    100% {
+      width: 300px;
+      height: 300px;
+      max-width: 300px;
+      max-height: 300px;
+      margin: -0.4%;
+    }
+  }
+}
+
+
+
 
 
 .photos-container--slider :nth-child(1) {
