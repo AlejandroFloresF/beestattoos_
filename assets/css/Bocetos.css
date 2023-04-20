@@ -1,63 +1,123 @@
 .main-galery-container {
-    background-color: #26272b;
-  }
-  
-  .main-galery-container--slider {
-    width: auto;
-    height: auto;
-  }
-  .photos-container--slider {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    list-style: none;
-  }
-  
-  
+  background-color: #26272b;
+}
+
+.main-galery-container--slider {
+  width: auto;
+  height: auto;
+}
+.photos-container--slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+
+.photos-container--card {
+  max-width: 250px;
+  max-height: 250px;
+  min-width: 150px;
+  min-height: 150px;
+  height: 20rem;
+  width: 20rem;
+  background-size: contain;
+  border-radius: 5px;
+  margin: 1.2%;
+}
+
+@media only screen and (max-width: 576px) {
   .photos-container--card {
-    width: 250px;
-    height: 250px;
-    background-size: contain;
-    border-radius: 5px;
+    height: 15rem;
+    width: 15rem;
+  }
+  .photos-container--card:hover {
+    animation-duration: 0.5s;
+    animation-name: focus;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
   }
   
+  @keyframes focus {
+    0% {
+      width: 200px;
+      height: 200px;
+    }
   
-  .photos-container--slider :nth-child(1) {
-    background-image: url(../imagenes/a.jpg);
+    100% {
+      width: 250px;
+      height: 250px;
+      margin: 0%;
+    }
   }
-  .photos-container--slider :nth-child(2) {
-    background-image: url(../imagenes/b.jpg);
+}
+
+@media only screen and (min-width: 576px) {
+  .photos-container--card {
+    height: 25rem;
+    width: 25rem;
   }
-  .photos-container--slider :nth-child(3) {
-    background-image: url(../imagenes/c.jpg);
-  }
-  .photos-container--slider :nth-child(4) {
-    background-image: url(../imagenes/d.jpg);
-  }
-  .photos-container--slider :nth-child(5) {
-    background-image: url(../imagenes/e.jpg);
-  }
-  .photos-container--slider :nth-child(6) {
-    background-image: url(../imagenes/f.jpg);
-  }
-  .photos-container--slider :nth-child(7) {
-    background-image: url(../imagenes/g.jpg);
-  }
-  .photos-container--slider :nth-child(8) {
-    background-image: url(../imagenes/h.jpg);
-  }
-  .photos-container--slider :nth-child(9) {
-    background-image: url(../imagenes/i.jpg);
-  }
-  .photos-container--slider :nth-child(10) {
-    background-image: url(../imagenes/j.jpg);
-  }
-  .photos-container--slider :nth-child(11) {
-    background-image: url(../imagenes/k.jpg);
-  }
-  .photos-container--slider :nth-child(12) {
-    background-image: url(../imagenes/l.jpg);
+  .photos-container--card:hover {
+    animation-duration: 1s;
+    animation-name: focus;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
   }
   
+  @keyframes focus {
+    0% {
+      width: 250px;
+      height: 250px;
+    }
+
+    100% {
+      width: 300px;
+      height: 300px;
+      max-width: 300px;
+      max-height: 300px;
+      margin: -0.4%;
+    }
+  }
+}
+
+
+
+
+
+.photos-container--slider :nth-child(1) {
+  background-image: url(../imagenes/a.jpg);
+}
+.photos-container--slider :nth-child(2) {
+  background-image: url(../imagenes/b.jpg);
+}
+.photos-container--slider :nth-child(3) {
+  background-image: url(../imagenes/c.jpg);
+}
+.photos-container--slider :nth-child(4) {
+  background-image: url(../imagenes/d.jpg);
+}
+.photos-container--slider :nth-child(5) {
+  background-image: url(../imagenes/e.jpg);
+}
+.photos-container--slider :nth-child(6) {
+  background-image: url(../imagenes/f.jpg);
+}
+.photos-container--slider :nth-child(7) {
+  background-image: url(../imagenes/g.jpg);
+}
+.photos-container--slider :nth-child(8) {
+  background-image: url(../imagenes/h.jpg);
+}
+.photos-container--slider :nth-child(9) {
+  background-image: url(../imagenes/i.jpg);
+}
+.photos-container--slider :nth-child(10) {
+  background-image: url(../imagenes/j.jpg);
+}
+.photos-container--slider :nth-child(11) {
+  background-image: url(../imagenes/k.jpg);
+}
+.photos-container--slider :nth-child(12) {
+  background-image: url(../imagenes/l.jpg);
+}
