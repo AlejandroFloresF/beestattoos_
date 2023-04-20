@@ -21,7 +21,7 @@ const Footer = () => {
             <ul className="footer-links">
               <li><Link href="/">INICIO</Link></li>
               <li><Link href="/galeria">GALERIA</Link></li>
-              <li><Link href="/bocetos">DISEÑOS</Link></li>
+              <li><Link href="/portafolio">PORTAFOLIO</Link></li>
               <li><Link href="/citas">CITAS</Link></li>
               <li><Link href="/nosotros">NOSOTROS</Link></li>
               <li><Link href="/contacto">CONTACTO</Link></li>
