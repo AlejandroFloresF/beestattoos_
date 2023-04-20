@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import Link from 'next/link'
-import styles from '../Navbar/Navbar.module.css';
-
+  
 
 
 const Navbar = () => {

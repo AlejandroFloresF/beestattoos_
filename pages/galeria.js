@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image'
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 
@@ -6,7 +7,50 @@ import Footer from "../components/Footer"
 
 const Galeria = () => {
     return (
-        <h1>hola</h1>
+        <div className="main-galery-container">
+            <Navbar/>
+                <section className="main-galery-container--slider">
+                    <ul className="photos-container--slider">
+                        <li className="photos-container--card">
+                            
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                    </ul>
+                </section>
+            <Footer/>
+        </div>
     )
 }
 

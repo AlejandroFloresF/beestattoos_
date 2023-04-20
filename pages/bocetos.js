@@ -5,9 +5,48 @@ import Footer from "../components/Footer"
 
 const Galeria = () => {
     return (
-        <div>
+        <div className="main-galery-container">
             <Navbar/>
-            <h1>Diseños</h1>
+                <section className="main-galery-container--slider">
+                    <ul className="photos-container--slider">
+                        <li className="photos-container--card">
+                            
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                        <li className="photos-container--card">
+
+                        </li>
+                    </ul>
+                </section>
             <Footer/>
         </div>
     )

@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-sm-12 col-md-6">
             <h6>Nosotros</h6>
-            <p className="text-justify">Beestattoos_<i>se crea a partir de una idea que surge en una conversación entre amigos, </i> uno de ellos teniendo un conocimiento 
+            <p className="text-justify">Beestattoos_ <i>se crea a partir de una idea que surge en una conversación entre amigos, </i> uno de ellos teniendo un conocimiento 
             previo sobre el arte del dibujo, tanto práctico como teórico, en enero del 2022 decide iniciar comprando un pequeño kit para tatuar muy limitado con el cual 
             tomaría cariño por esa nueva práctica, mirando un par de tutoriales al inicio aprendió las bases, después los tutoriales se convirtieron en cursos completos, 
             terminando así de aprender y actualizar poco a poco el material de trabajo además de la forma de trabajar, a día de hoy cuneta con una página en Instagram 
