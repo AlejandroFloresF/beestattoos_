@@ -1,4 +1,5 @@
-import '../assets/GlobalStyles/Root.css'
+import '../assets/css/Root.css'
+import '../assets/css/Footer.css'
 
 
 
