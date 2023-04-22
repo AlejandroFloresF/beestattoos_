@@ -87,28 +87,55 @@
 
 .portafolio-container--slider :nth-child(1) {
   background-image: url(../imagenes/boceto1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .portafolio-container--slider :nth-child(2) {
   background-image: url(../imagenes/boceto2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .portafolio-container--slider :nth-child(3) {
   background-image: url(../imagenes/boceto3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .portafolio-container--slider :nth-child(4) {
   background-image: url(../imagenes/boceto4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .portafolio-container--slider :nth-child(5) {
   background-image: url(../imagenes/boceto5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .portafolio-container--slider :nth-child(6) {
   background-image: url(../imagenes/boceto6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .portafolio-container--slider :nth-child(7) {
   background-image: url(../imagenes/boceto7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .portafolio-container--slider :nth-child(8) {
   background-image: url(../imagenes/boceto8.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .portafolio-container--slider :nth-child(9) {
   background-image: url(../imagenes/boceto9.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

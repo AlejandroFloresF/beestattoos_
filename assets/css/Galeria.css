@@ -27,6 +27,19 @@
   margin: 1.2%;
 }
 
+
+.active {
+  max-width: 250px;
+  max-height: 250px;
+  min-width: 150px;
+  min-height: 150px;
+  height: 20rem;
+  width: 20rem;
+  background-size: contain;
+  border-radius: 50px;
+  margin: 1.2%;
+}
+
 @media only screen and (max-width: 576px) {
   .photos-container--card {
     height: 15rem;
@@ -87,37 +100,74 @@
 
 .photos-container--slider :nth-child(1) {
   background-image: url(../imagenes/a.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .photos-container--slider :nth-child(2) {
   background-image: url(../imagenes/b.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .photos-container--slider :nth-child(3) {
   background-image: url(../imagenes/c.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .photos-container--slider :nth-child(4) {
   background-image: url(../imagenes/d.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .photos-container--slider :nth-child(5) {
   background-image: url(../imagenes/e.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .photos-container--slider :nth-child(6) {
   background-image: url(../imagenes/f.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .photos-container--slider :nth-child(7) {
   background-image: url(../imagenes/g.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .photos-container--slider :nth-child(8) {
   background-image: url(../imagenes/h.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .photos-container--slider :nth-child(9) {
   background-image: url(../imagenes/i.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .photos-container--slider :nth-child(10) {
   background-image: url(../imagenes/j.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .photos-container--slider :nth-child(11) {
   background-image: url(../imagenes/k.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .photos-container--slider :nth-child(12) {
   background-image: url(../imagenes/l.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
