@@ -13,62 +13,62 @@ const Galeria = () => {
                 <section className="main-galery-container--slider">
                     <ul className="photos-container--slider">
                         <motion.li
-                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.8, margin: "100px"}}
                         className="photos-container--card">
                             
                         </motion.li>
                         <motion.li 
-                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.8, margin: "100px"}}
                         className="photos-container--card">
 
                         </motion.li>
                         <motion.li
-                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.8, margin: "100px"}}
                         className="photos-container--card">
 
                         </motion.li>
                         <motion.li
-                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.8, margin: "100px"}}
                         className="photos-container--card">
 
                         </motion.li>
                         <motion.li
-                        whileTap={{ scale: 1.6, margin: "100px"}} 
+                        whileTap={{ scale: 1.8, margin: "100px"}} 
                         className="photos-container--card">
 
                         </motion.li>
                         <motion.li
-                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.8, margin: "100px"}}
                         className="photos-container--card">
 
                         </motion.li>
                         <motion.li
-                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.8, margin: "100px"}}
                         className="photos-container--card">
 
                         </motion.li>
                         <motion.li
-                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.8, margin: "100px"}}
                         className="photos-container--card">
 
                         </motion.li>
                         <motion.li
-                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.8, margin: "100px"}}
                         className="photos-container--card">
 
                         </motion.li>
                         <motion.li
-                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.8, margin: "100px"}}
                         className="photos-container--card">
 
                         </motion.li>
                         <motion.li
-                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.8, margin: "100px"}}
                         className="photos-container--card">
 
                         </motion.li>
                         <motion.li
-                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.8, margin: "100px"}}
                         className="photos-container--card">
 
                         </motion.li>
