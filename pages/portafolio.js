@@ -12,56 +12,47 @@ const Portafolio = () => {
                 <section className="main-portafolio-container--slider">
                     <ul className="portafolio-container--slider">
                         <motion.li
-                        whileHover={{ scale: 1.6, margin: "100px"}}
-                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.8, margin: "100px"}}
                         className="portafolio-container--card">
                             
                         </motion.li>
                         <motion.li
-                        whileHover={{ scale: 1.6, margin: "100px"}}
-                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.8, margin: "100px"}}
                         className="portafolio-container--card">
 
                         </motion.li>
                         <motion.li
-                        whileHover={{ scale: 1.6, margin: "100px"}}
-                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.8, margin: "100px"}}
                         className="portafolio-container--card">
 
                         </motion.li>
                         <motion.li
-                        whileHover={{ scale: 1.6, margin: "100px"}}
-                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.8, margin: "100px"}}
                         className="portafolio-container--card">
 
                         </motion.li>
                         <motion.li
-                        whileHover={{ scale: 1.6, margin: "100px"}}
-                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.8, margin: "100px"}}
                         className="portafolio-container--card">
 
                         </motion.li>
                         <motion.li
-                        whileHover={{ scale: 1.6, margin: "100px"}}
-                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.8, margin: "100px"}}
                         className="portafolio-container--card">
 
                         </motion.li>
                         <motion.li
-                        whileHover={{ scale: 1.6, margin: "100px"}}
-                        whileTap={{ scale: 1.6, margin: "100px"}} 
+                        whileTap={{ scale: 1.8, margin: "100px"}} 
                         className="portafolio-container--card">
 
                         </motion.li>
                         <motion.li
-                        whileHover={{ scale: 1.6, margin: "100px"}}
-                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.8, margin: "100px"}}
                         className="portafolio-container--card">
 
                         </motion.li>
                         <motion.li
-                        whileHover={{ scale: 1.6, margin: "100px"}}
-                        whileTap={{ scale: 1.6, margin: "100px"}} 
+                        whileTap={{ scale: 1.8, margin: "100px"}} 
                         className="portafolio-container--card">
 
                         </motion.li>

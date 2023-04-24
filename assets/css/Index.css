@@ -36,11 +36,10 @@
 
 .main-index-slider--container :nth-child(n) {
     width: 150px;
-    height: 25rem;
+    height: 20rem;
+    opacity: 0.1;
     background-color: red;
     transform: skew(30deg);
-    margin-top: 40px;
-    z-index: 0;
 }
 
 .main-index-slider--container :nth-child(1) {
