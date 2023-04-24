@@ -19,9 +19,20 @@ const HomePage = () => {
     return (
         <div>
             <Navbar/>
-            {productList.map((product) => (
-                <div>{product.name}</div>
-            ))}
+            <section className="main-index-container">
+                <div className="main-index-logo"></div>
+                <ul className="main-index-slider--container">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
             <Footer/>
         </div>
     )

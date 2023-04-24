@@ -1,57 +1,89 @@
 import React from "react";
 import Image from 'next/image'
+import { motion } from "framer-motion"
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 
 
 
 const Galeria = () => {
-
-    const Focus = ()=> {
-        var picture = getElementbyid
-    }
-
     return (
         <div className="main-galery-container">
             <Navbar/>
                 <section className="main-galery-container--slider">
                     <ul className="photos-container--slider">
-                        <li onClick={Focus} id="photos-container--card" className="photos-container--card">
+                        <motion.li
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        className="photos-container--card">
                             
-                        </li>
-                        <li id="photos-container--card" className="photos-container--card">
+                        </motion.li>
+                        <motion.li 
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        className="photos-container--card">
 
-                        </li>
-                        <li id="photos-container--card" className="photos-container--card">
+                        </motion.li>
+                        <motion.li
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        className="photos-container--card">
 
-                        </li>
-                        <li id="photos-container--card" className="photos-container--card">
+                        </motion.li>
+                        <motion.li
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        className="photos-container--card">
 
-                        </li>
-                        <li id="photos-container--card" className="photos-container--card">
+                        </motion.li>
+                        <motion.li
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}} 
+                        className="photos-container--card">
 
-                        </li>
-                        <li id="photos-container--card" className="photos-container--card">
+                        </motion.li>
+                        <motion.li
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        className="photos-container--card">
 
-                        </li>
-                        <li id="photos-container--card" className="photos-container--card">
+                        </motion.li>
+                        <motion.li
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        className="photos-container--card">
 
-                        </li>
-                        <li id="photos-container--card" className="photos-container--card">
+                        </motion.li>
+                        <motion.li
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        className="photos-container--card">
 
-                        </li>
-                        <li id="photos-container--card" className="photos-container--card">
+                        </motion.li>
+                        <motion.li
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        className="photos-container--card">
 
-                        </li>
-                        <li id="photos-container--card" className="photos-container--card">
+                        </motion.li>
+                        <motion.li
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        className="photos-container--card">
 
-                        </li>
-                        <li id="photos-container--card" className="photos-container--card">
+                        </motion.li>
+                        <motion.li
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        className="photos-container--card">
 
-                        </li>
-                        <li id="photos-container--card" className="photos-container--card">
+                        </motion.li>
+                        <motion.li
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        className="photos-container--card">
 
-                        </li>
+                        </motion.li>
                     </ul>
                 </section>
             <Footer/>

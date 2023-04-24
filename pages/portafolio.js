@@ -1,6 +1,8 @@
 import React from "react";
+import { motion } from "framer-motion"
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
+
 
 
 const Portafolio = () => {
@@ -9,33 +11,60 @@ const Portafolio = () => {
             <Navbar/>
                 <section className="main-portafolio-container--slider">
                     <ul className="portafolio-container--slider">
-                        <li className="portafolio-container--card">
+                        <motion.li
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        className="portafolio-container--card">
                             
-                        </li>
-                        <li className="portafolio-container--card">
+                        </motion.li>
+                        <motion.li
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        className="portafolio-container--card">
 
-                        </li>
-                        <li className="portafolio-container--card">
+                        </motion.li>
+                        <motion.li
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        className="portafolio-container--card">
 
-                        </li>
-                        <li className="portafolio-container--card">
+                        </motion.li>
+                        <motion.li
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        className="portafolio-container--card">
 
-                        </li>
-                        <li className="portafolio-container--card">
+                        </motion.li>
+                        <motion.li
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        className="portafolio-container--card">
 
-                        </li>
-                        <li className="portafolio-container--card">
+                        </motion.li>
+                        <motion.li
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        className="portafolio-container--card">
 
-                        </li>
-                        <li className="portafolio-container--card">
+                        </motion.li>
+                        <motion.li
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}} 
+                        className="portafolio-container--card">
 
-                        </li>
-                        <li className="portafolio-container--card">
+                        </motion.li>
+                        <motion.li
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}}
+                        className="portafolio-container--card">
 
-                        </li>
-                        <li className="portafolio-container--card">
+                        </motion.li>
+                        <motion.li
+                        whileHover={{ scale: 1.6, margin: "100px"}}
+                        whileTap={{ scale: 1.6, margin: "100px"}} 
+                        className="portafolio-container--card">
 
-                        </li>
+                        </motion.li>
                     </ul>
                 </section>
             <Footer/>

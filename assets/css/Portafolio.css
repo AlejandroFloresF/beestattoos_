@@ -32,25 +32,8 @@
     height: 15rem;
     width: 15rem;
   }
-  .portafolio-container--card:hover {
-    animation-duration: 0.5s;
-    animation-name: focus;
-    animation-iteration-count: 2;
-    animation-direction: alternate;
-  }
-  
-  @keyframes focus {
-    0% {
-      width: 200px;
-      height: 200px;
-    }
-  
-    100% {
-      width: 250px;
-      height: 250px;
-      margin: 0%;
-    }
-  }
+
+
 }
 
 @media only screen and (min-width: 576px) {
@@ -58,27 +41,8 @@
     height: 25rem;
     width: 25rem;
   }
-  .portafolio-container--card:hover {
-    animation-duration: 1s;
-    animation-name: focus;
-    animation-iteration-count: 2;
-    animation-direction: alternate;
-  }
-  
-  @keyframes focus {
-    0% {
-      width: 250px;
-      height: 250px;
-    }
 
-    100% {
-      width: 300px;
-      height: 300px;
-      max-width: 300px;
-      max-height: 300px;
-      margin: -0.4%;
-    }
-  }
+  
 }
 
 
