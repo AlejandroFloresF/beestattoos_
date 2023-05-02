@@ -8,12 +8,11 @@ const Footer = () => {
         <div className="row">
           <div className="col-sm-12 col-md-6">
             <h6>Nosotros</h6>
-            <p className="text-justify">Beestattoos_ <i>se crea a partir de una idea que surge en una conversación entre amigos, </i> uno de ellos teniendo un conocimiento 
-            previo sobre el arte del dibujo, tanto práctico como teórico, en enero del 2022 decide iniciar comprando un pequeño kit para tatuar muy limitado con el cual 
-            tomaría cariño por esa nueva práctica, mirando un par de tutoriales al inicio aprendió las bases, después los tutoriales se convirtieron en cursos completos, 
-            terminando así de aprender y actualizar poco a poco el material de trabajo además de la forma de trabajar, a día de hoy cuneta con una página en Instagram 
-            con cerca de 200 seguidores y un aproximado de más de 1200 clientes, de momento el estudio es remoto con una fecha estimada "mayo 30" para establecer un 
-            estudio propio.</p>
+            <p className="text-justify">Beestattoos_ <i>Es una app web</i> donde podrás consultar todo sobre nosotros,
+             nuestro portafolio, nuestros diseños, la calidad de nuestro trabajo, podrás también realizar citas para 
+             acudir a visitarnos, crear una cuenta donde podrás ver el historial de tus tatuajes, tus citas, además
+             de tener en todo momento nuestra información de contacto y soporte.
+            </p>
           </div>
 
           <div className="col-xs-6 col-md-3">
@@ -23,6 +22,11 @@ const Footer = () => {
               <li><Link href="/galeria">GALERIA</Link></li>
               <li><Link href="/portafolio">PORTAFOLIO</Link></li>
               <li><Link href="/citas">CITAS</Link></li>
+            </ul>
+          </div>
+          <div className="col-xs-6 col-md-3">
+            <h6>información </h6>
+            <ul className="footer-links">
               <li><Link href="/nosotros">NOSOTROS</Link></li>
               <li><Link href="/contacto">CONTACTO</Link></li>
             </ul>
@@ -35,6 +39,9 @@ const Footer = () => {
           <div className="col-md-8 col-sm-6 col-xs-12">
             <p className="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
             <Link href=""> Beestattoos_</Link>.
+            </p>
+            <p className="copyright-text">Web App Desarrollada por 
+            <Link href="https://github.com/JavierReivajG"> &copy;Alejandro Flores</Link>.
             </p>
           </div>
           <div className="col-md-4 col-sm-6 col-xs-12">
