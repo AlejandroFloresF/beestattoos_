@@ -1,10 +1,8 @@
-import React from "react";
-import Image from 'next/image'
+import React, { useState } from 'react';
 import { motion } from "framer-motion"
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
-
-
+import Picture from "../components/Picture"
 
 const Galeria = () => {
     return (
@@ -12,72 +10,47 @@ const Galeria = () => {
             <Navbar/>
                 <section className="main-galery-container--slider">
                     <ul className="photos-container--slider">
-                        <motion.li
-                        whileTap={{ scale: 1.8, margin: "100px"}}
-                        className="photos-container--card">
-                            
-                        </motion.li>
-                        <motion.li 
-                        whileTap={{ scale: 1.8, margin: "100px"}}
-                        className="photos-container--card">
-
-                        </motion.li>
-                        <motion.li
-                        whileTap={{ scale: 1.8, margin: "100px"}}
-                        className="photos-container--card">
-
-                        </motion.li>
-                        <motion.li
-                        whileTap={{ scale: 1.8, margin: "100px"}}
-                        className="photos-container--card">
-
-                        </motion.li>
-                        <motion.li
-                        whileTap={{ scale: 1.8, margin: "100px"}} 
-                        className="photos-container--card">
-
-                        </motion.li>
-                        <motion.li
-                        whileTap={{ scale: 1.8, margin: "100px"}}
-                        className="photos-container--card">
-
-                        </motion.li>
-                        <motion.li
-                        whileTap={{ scale: 1.8, margin: "100px"}}
-                        className="photos-container--card">
-
-                        </motion.li>
-                        <motion.li
-                        whileTap={{ scale: 1.8, margin: "100px"}}
-                        className="photos-container--card">
-
-                        </motion.li>
-                        <motion.li
-                        whileTap={{ scale: 1.8, margin: "100px"}}
-                        className="photos-container--card">
-
-                        </motion.li>
-                        <motion.li
-                        whileTap={{ scale: 1.8, margin: "100px"}}
-                        className="photos-container--card">
-
-                        </motion.li>
-                        <motion.li
-                        whileTap={{ scale: 1.8, margin: "100px"}}
-                        className="photos-container--card">
-
-                        </motion.li>
-                        <motion.li
-                        whileTap={{ scale: 1.8, margin: "100px"}}
-                        className="photos-container--card">
-
-                        </motion.li>
+                        <Picture/>
+                        <Picture/>
+                        <Picture/>
+                        <Picture/>
+                        <Picture/>
+                        <Picture/>
+                        <Picture/>
+                        <Picture/>
+                        <Picture/>
+                        <Picture/>
+                        <Picture/>
+                        <Picture/>  
                     </ul>
                 </section>
             <Footer/>
-        </div>
+        </div>  
     )
-}
+};
+
+export default Galeria;
 
 
-export default Galeria
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
