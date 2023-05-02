@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion"
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
+import Picture from "../components/Picture"
 
 
 
@@ -11,51 +12,15 @@ const Portafolio = () => {
             <Navbar/>
                 <section className="main-portafolio-container--slider">
                     <ul className="portafolio-container--slider">
-                        <motion.li
-                        whileTap={{ scale: 1.8, margin: "100px"}}
-                        className="portafolio-container--card">
-                            
-                        </motion.li>
-                        <motion.li
-                        whileTap={{ scale: 1.8, margin: "100px"}}
-                        className="portafolio-container--card">
-
-                        </motion.li>
-                        <motion.li
-                        whileTap={{ scale: 1.8, margin: "100px"}}
-                        className="portafolio-container--card">
-
-                        </motion.li>
-                        <motion.li
-                        whileTap={{ scale: 1.8, margin: "100px"}}
-                        className="portafolio-container--card">
-
-                        </motion.li>
-                        <motion.li
-                        whileTap={{ scale: 1.8, margin: "100px"}}
-                        className="portafolio-container--card">
-
-                        </motion.li>
-                        <motion.li
-                        whileTap={{ scale: 1.8, margin: "100px"}}
-                        className="portafolio-container--card">
-
-                        </motion.li>
-                        <motion.li
-                        whileTap={{ scale: 1.8, margin: "100px"}} 
-                        className="portafolio-container--card">
-
-                        </motion.li>
-                        <motion.li
-                        whileTap={{ scale: 1.8, margin: "100px"}}
-                        className="portafolio-container--card">
-
-                        </motion.li>
-                        <motion.li
-                        whileTap={{ scale: 1.8, margin: "100px"}} 
-                        className="portafolio-container--card">
-
-                        </motion.li>
+                        <Picture/>
+                        <Picture/>
+                        <Picture/>
+                        <Picture/>
+                        <Picture/>
+                        <Picture/>
+                        <Picture/>
+                        <Picture/>
+                        <Picture/>
                     </ul>
                 </section>
             <Footer/>
