@@ -29,3 +29,41 @@ const Nosotros = () => {
 
 
 export default Nosotros
+
+
+
+
+
+
+
+//hackthegames
+//h 1
+//a 
+
+
+let string = "hackthegames"
+const ejemplo = string.split("");
+
+for(i = 0; i < ejemplo.length; i++ ) {
+    var elemento = [ejemplo[i] , i];
+    console.log("hola soy i y estoy en "+ elemento[0])
+    for(j = 0; j < ejemplo.length; j++ ) {
+        if(elemento[1] != j){
+            console.log("hola soy j " + ejemplo[j])
+            if(elemento[0] == ejemplo[j]) {
+                
+            }
+        }
+    }
+    
+
+}
+console.log(ejemplo)
+
+
+
+
+
+
+  
+  

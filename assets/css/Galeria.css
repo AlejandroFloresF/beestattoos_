@@ -33,6 +33,45 @@
     height: 15rem;
     width: 15rem;
   }
+  .Focusing-picture {
+    scale: 1.8;
+    margin: 25%;
+    animation-duration: 0.5s;
+    animation-name: Focus;
+  }
+  
+  
+  .Unfocusing-picture {
+    scale: 1;
+    margin: 1.2%;
+    animation-duration: 0.5s;
+    animation-name: Unfocus;
+  }
+  
+  @keyframes Unfocus {
+    from {
+      scale: 1.8;
+      margin: 6%;
+    }
+  
+    to {
+      scale: 1;
+      margin: 1.2%;
+    }
+  }
+  
+  
+  @keyframes Focus {
+    from {
+      scale: 1;
+      margin: 1.2%;
+    }
+  
+    to {
+      scale: 1.8;
+      margin: 25%;
+    }
+  }
 
 }
 
@@ -40,6 +79,45 @@
   .photos-container--card {
     height: 25rem;
     width: 25rem;
+  }
+  .Focusing-picture {
+    scale: 1.8;
+    margin: 6%;
+    animation-duration: 0.5s;
+    animation-name: Focus;
+  }
+  
+  
+  .Unfocusing-picture {
+    scale: 1;
+    margin: 1.2%;
+    animation-duration: 0.5s;
+    animation-name: Unfocus;
+  }
+  
+  @keyframes Unfocus {
+    from {
+      scale: 1.8;
+      margin: 6%;
+    }
+  
+    to {
+      scale: 1;
+      margin: 1.2%;
+    }
+  }
+  
+  
+  @keyframes Focus {
+    from {
+      scale: 1;
+      margin: 1.2%;
+    }
+  
+    to {
+      scale: 1.8;
+      margin: 6%;
+    }
   }
 
 }
@@ -118,45 +196,5 @@
 }
 
 
-/*Aqui comienza la animacion de visualizacion Responsive*/
 
 
-.Focusing-picture {
-  scale: 1.8;
-  margin: 6%;
-  animation-duration: 0.5s;
-  animation-name: Focus;
-}
-
-
-.Unfocusing-picture {
-  scale: 1;
-  margin: 1.2%;
-  animation-duration: 0.5s;
-  animation-name: Unfocus;
-}
-
-@keyframes Unfocus {
-  from {
-    scale: 1.8;
-    margin: 6%;
-  }
-
-  to {
-    scale: 1;
-    margin: 1.2%;
-  }
-}
-
-
-@keyframes Focus {
-  from {
-    scale: 1;
-    margin: 1.2%;
-  }
-
-  to {
-    scale: 1.8;
-    margin: 6%;
-  }
-}
