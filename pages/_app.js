@@ -6,6 +6,8 @@ import '../assets/css/Portafolio.css'
 import '../assets/css/Nosotros.css'
 import '../assets/css/Index.css'
 import '../assets/css/NavbarMenu.css'
+import '../assets/css/Login.css'
+import '../assets/css/Register.css'
 
 
 

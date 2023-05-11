@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
+import Background from "../components/Background"
 
 
 const Nosotros = () => {
@@ -12,7 +13,7 @@ const Nosotros = () => {
                 <img></img>
                 <article>
                     <h1>
-                    se crea a partir de una idea que surge en una conversación entre amigos, uno de ellos teniendo un conocimiento
+                    Beestattoos se crea a partir de una idea que surge en una conversación entre amigos, uno de ellos teniendo un conocimiento
                     previo sobre el arte del dibujo, tanto práctico como teórico, en enero del 2022 decide iniciar comprando un 
                     pequeño kit para tatuar muy limitado con el cual tomaría cariño por esa nueva práctica, mirando un par de 
                     tutoriales al inicio aprendió las bases, después los tutoriales se convirtieron en cursos completos, terminando 
@@ -22,6 +23,7 @@ const Nosotros = () => {
                     </h1>
                 </article>
             </section>
+            <Background/>
             <Footer/>
         </div>
     )

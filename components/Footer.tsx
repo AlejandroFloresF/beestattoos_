@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-md-6">
-            <h6>Nosotros</h6>
+            <h6>Nuestra App</h6>
             <p className="text-justify">Beestattoos_ <i>Es una app web</i> donde podrás consultar todo sobre nosotros,
              nuestro portafolio, nuestros diseños, la calidad de nuestro trabajo, podrás también realizar citas para 
              acudir a visitarnos, crear una cuenta donde podrás ver el historial de tus tatuajes, tus citas, además
