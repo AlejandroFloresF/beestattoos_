@@ -10,14 +10,22 @@ const NavbarMenu = () => {
     };
 
     return (
-        <ul className='navbar-menu-container' onClick={handleClick}>
-            <li><Link href="/">Inicio</Link></li>
-            <li><Link href="/galeria">Galeria</Link></li>
-            <li><Link href="/portafolio">Portafolio</Link></li>
-            <li><Link href="/citas">Citas</Link></li>
-            <li><Link href="/nosotros">Nosotros</Link></li>
-            <li><Link href="/contacto">Contacto</Link></li>
-        </ul>
+        <div className='navbar-button-container'>
+            <label className="burger" htmlFor="burger">
+                <input type="checkbox" id="burger"  onClick={handleClick}></input>
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul className={"navbar-menu " + claseCSS}>
+                <li><Link href="/">Inicio</Link></li>
+                <li><Link href="/galeria">Galeria</Link></li>
+                <li><Link href="/portafolio">Portafolio</Link></li>
+                <li><Link href="/citas">Citas</Link></li>
+                <li><Link href="/nosotros">Nosotros</Link></li>
+                <li><Link href="/contacto">Contacto</Link></li>
+            </ul>
+        </div>
     )
 }
 

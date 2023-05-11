@@ -5,6 +5,7 @@ import '../assets/css/Galeria.css'
 import '../assets/css/Portafolio.css'
 import '../assets/css/Nosotros.css'
 import '../assets/css/Index.css'
+import '../assets/css/NavbarMenu.css'
 
 
 
