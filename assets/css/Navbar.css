@@ -1,11 +1,11 @@
 .navbar-main-container {
     width: 100%;
-    height: 8vh;
+    height: 7vh;
     background-color: #222325;
     border-bottom: 1px solid black;
     display: flex;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
     flex-direction: row;
     justify-content: space-between;
 
@@ -18,10 +18,6 @@
     align-items: center;
     justify-content: start;
 }
-
-
-
-
 
 .navbar-company-name--text {
     color: white;
@@ -39,4 +35,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    padding-top: 0.5%;
 }

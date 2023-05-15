@@ -68,10 +68,10 @@
       .navbar-menu {
         display: none;
         position: absolute;
-        width: 20rem;
+        width: 15rem;
         height: auto;
-        right: 2rem;
-        top: 8vh;
+        right: 1rem;
+        top: 7vh;
         background-color: #222325;
         z-index: 10;
         display: flex;
@@ -84,30 +84,59 @@
 
       .navbar-menu li{
         display: flex;
-        padding: 5%;
+        padding: 1%;
         justify-content: center;
         
       }
       .navbar-menu li a{
-        color: white;
-        font-size: 2rem;
-        text-align: center;
-
+        --bg: #000;
+        --hover-bg: #f0ba0b;
+        --hover-text: #000000;
+        color: #fff;
+        font-size: 1.8rem;
+        padding: 10%;
+        width: 90%;
+        transition: 0.2s;
+        text-decoration: none;
+        text-align: start;
       } 
       .navbar-menu li a:hover{
-        color: #e4bb05;
-        font-size: 2rem;
-        text-decoration: none;
+        color: #000000;
+        transform: translate(-0.25rem,-0.25rem);
+        background: var(--hover-bg);
+        box-shadow: 0.30rem 0.30rem var(--bg);
 
       }
       .Menu-close {
         display: none;
+        animation-duration: 0.5s;
+        animation-name: disappear;
       }
 
       .Menu-open {
         display: block;
+        animation-duration: 0.5s;
+        animation-name: appear;
+      }
+      @keyframes appear {
+        from {
+          opacity: 0%;
+        }
+      
+        to {
+          opacity: 100%;
+        }
       }
 
+      @keyframes disappear {
+        from {
+          opacity: 100%;
+        }
+      
+        to {
+          opacity: 0%;
+        }
+      }
 
   }
   @media only screen and (min-width: 576px) {
@@ -175,7 +204,7 @@
         position: absolute;
         width: 20rem;
         right: 2rem;
-        top: 8vh;
+        top: 7vh;
         background-color: #222325;
         z-index: 10;
         display: flex;
@@ -188,30 +217,65 @@
 
       .navbar-menu li{
         display: flex;
-        padding: 10%;
+        padding: 1%;
         justify-content: center;
         
       }
       .navbar-menu li a{
-        color: white;
-        font-size: 2rem;
-        text-align: center;
-
+        --bg: #000;
+        --hover-bg: #f0ba0b;
+        --hover-text: #000000;
+        color: #fff;
+        font-size: 1.8rem;
+        padding: 10%;
+        width: 90%;
+        transition: 0.2s;
+        text-decoration: none;
+        text-align: start;
       } 
       .navbar-menu li a:hover{
-        color: #e4bb05;
-        font-size: 2rem;
-        text-decoration: none;
+        color: #000000;
+        transform: translate(-0.25rem,-0.25rem);
+        background: var(--hover-bg);
+        box-shadow: 0.30rem 0.30rem var(--bg);
 
       }
       .Menu-close {
         display: none;
+        animation-name: disappear;
+        animation-duration: 0.5s;
       }
 
       .Menu-open {
         display: block;
+        animation-duration: 0.5s;
+        animation-name: appear;
+      }
+    
+      .navbar-menu li a:active {
+        transform: translate(0);
+        box-shadow: none;
       }
 
+      @keyframes appear {
+        from {
+          opacity: 0%;
+        }
+      
+        to {
+          opacity: 100%;
+        }
+      }
+
+      @keyframes disappear {
+        from {
+          opacity: 100%;
+        }
+      
+        to {
+          opacity: 0%;
+        }
+      }
     }
   
   
