@@ -41,7 +41,7 @@ const Footer = () => {
             <Link href=""> Beestattoos_</Link>.
             </p>
             <p className="copyright-text">Web App Desarrollada por 
-            <Link href="https://github.com/JavierReivajG"> &copy;Alejandro Flores</Link>.
+            <Link href="/"> &copy;Adrian Vivanco</Link>.
             </p>
           </div>
           <div className="col-md-4 col-sm-6 col-xs-12">
