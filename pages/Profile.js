@@ -1,5 +1,5 @@
-import useUser from '../lib/useUser';
-import Layout from '../components/Layout';
+//import useUser from '../lib/useUser';
+//import Layout from '../components/Layout';
  
 const Profile = () => {
   // Fetch the user client-side
