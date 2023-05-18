@@ -1,6 +1,6 @@
 const data = {
   '2zd33b8c': {
-    name: 'Maluma BIG ASSHass Avocado',
+    name: 'Maluma Avocado',
     id: '2zd33b8c',
     sku: 'NUR72KCM',
     price: 1.15,

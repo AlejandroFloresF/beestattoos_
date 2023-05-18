@@ -4,12 +4,12 @@ import Footer from "../components/Footer"
 
 
 const Citas = () => {
+    
     return (
-        <div>
-            <Navbar/>
-            <h1>Citas para realizarse un tatuaje</h1>
-            <Footer/>
+        <div className="master-container">
+
         </div>
+        
     )
 }
 

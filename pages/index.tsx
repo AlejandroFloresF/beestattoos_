@@ -1,12 +1,15 @@
 import React, {useEffect, useState} from "react";
+import { useUser } from '@auth0/nextjs-auth0/client';
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 
 
 
 const HomePage = () => {
+    const { user, error, isLoading } = useUser();
     const [productList, setProductList] = useState([])
 
+    
     useEffect(() => {
         window
             .fetch("/api/avo")

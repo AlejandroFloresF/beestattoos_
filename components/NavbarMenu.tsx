@@ -24,6 +24,7 @@ const NavbarMenu = () => {
                 <li><Link href="/citas">Citas</Link></li>
                 <li><Link href="/nosotros">Nosotros</Link></li>
                 <li><Link href="/contacto">Contacto</Link></li>
+                <li><Link href="/api/auth/login">Login</Link></li>
             </ul>
         </div>
     )
