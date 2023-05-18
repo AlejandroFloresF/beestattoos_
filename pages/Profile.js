@@ -1,7 +1,7 @@
 //import useUser from '../lib/useUser';
 //import Layout from '../components/Layout';
  
-const Profile = () => {
+/*const Profile = () => {
   // Fetch the user client-side
   const { user } = useUser({ redirectTo: '/login' });
  
@@ -19,4 +19,4 @@ const Profile = () => {
   );
 };
  
-export default Profile;
+export default Profile;*/
